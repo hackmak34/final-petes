@@ -1,0 +1,56 @@
+/* Custom Styles */
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header and Footer Styling */
+header, footer {
+  background-color: #343a40; /* Darker gray for header and footer */
+  color: white;
+  padding: 1.5rem 0;
+}
+
+h1, h2 {
+  color: #f8f9fa; /* Light color for headings */
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+  color: #f8f9fa !important; /* Make navbar links white */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #495057; /* Darker background on hover */
+}
+
+/* Container Styling */
+.container {
+  margin-top: 30px;
+}
+
+/* Footer Fixed at the Bottom */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Image Styling */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
